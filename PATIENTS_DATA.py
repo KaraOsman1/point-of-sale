@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect
 from flask_mysqldb import MySQL
-#import re
 
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
